@@ -1,0 +1,229 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+	
+}
+
+body{
+	margin: 0;
+	background-image: url("images/background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	min-width: 300px;
+	overflow-x: hidden;
+}
+#first_display{
+
+    height: calc(100vw * 985/1980);
+	width: 100%;
+    position: relative;
+    top: 0px;
+    z-index: 1;
+
+}
+
+#box1{
+	background-image: url("images/dark1.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+		top: 55px;
+	width: 100%;
+	height: calc(100vw * 985/1980);
+}
+
+#box2{
+    width: 100%;
+    height: 100%;
+    position: relative;     
+
+   
+    background-color: rgba(0, 0, 0, 0.5);
+	background: linear-gradient(135deg, rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.5));
+	backdrop-filter: blur(5px);
+	-webkit-backdrop-filter: blur(5px);
+	box-shadow: 0 8px 32px rgba(0,0,0,0.37);
+
+}
+
+#title{
+	font-family: var(--font1);
+	color: white;
+	
+
+	font-size: calc(100vw * 70/1980);
+	font-weight: 800;
+		position: relative;
+		top: calc(100vw * 300/1980);
+		left: calc(100vw * 400/1980);
+}
+#us{
+	color: var(--orange);
+}
+
+#saying1{
+	font-family: var(--font1);
+	font-size: calc(100vw *30/1980);
+	color: white;
+		position: relative;
+		top: calc(100vw * 300/1980);
+		left: calc(100vw * 410/1980);
+
+	}
+
+
+#leaf4{
+	width: calc(100vw * 250/1980);
+	top: calc(100vw * 90/1980);
+	right: calc(100vw * 140/1980);
+	z-index: 3;
+	position: absolute;
+}
+
+
+
+#box3{
+    width: calc(100vw* 500/1980);
+    height: calc(100vw * 550/1980);
+    border-radius: calc(100vw * 50/1980);
+    position: absolute;
+        right: calc(100vw * 230/1980);
+        top: calc(100vw *200/1980);
+   
+    z-index: 1;
+
+    background-color: rgba(0, 0, 0, 0.6);
+	background: linear-gradient(135deg, rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.5));
+	backdrop-filter: blur(5px);
+	-webkit-backdrop-filter: blur(10px);
+	border-radius: 20px;
+	box-shadow: 0 8px 32px rgba(0,0,0,0.37);
+}
+
+
+
+
+#saying_sign_up{
+    position: relative;
+    width: 80%;
+    color: white;
+    font-size: calc(100vw *30/1980);
+    left: calc(100vw * 50/1980);
+    font-family: var(--font1);
+    top: calc(100vw * 140/1980);
+}
+
+
+#sign_up{
+    color: white;
+    font-family: var(--font1);
+    position: relative;
+    font-size: calc(100vw * 40/1980);
+    top: calc(100vw * 30/1980);
+    left: calc(100vw * 30/1980);
+    
+}
+
+#sign_up_saying{
+    color: rgb(133, 133, 133);
+    font-family: var(--font1);
+    position: relative;
+    font-size: calc(100vw * 15/1980);
+    top: calc(100vw * 40/1980);
+    left: calc(100vw * 30/1980);
+    
+}
+
+#line3{
+    position: relative;
+    width: 88%;
+    top: calc(100vw * 55/1980);
+    left: calc(100vw * 30/1980);
+    border-width: calc(100vw * 0.1/1980);
+    color: rgba(133, 133, 133,.1);
+    
+}
+
+
+
+/*Input */
+
+  
+
+  
+input[type="email"],
+textarea{
+    font-family: var(--font1);
+    background-color: transparent;
+    color: white;
+    position: relative;
+        left: calc(100vw * 30/1980);
+        margin-top: calc(100vw * 80/1980);
+        margin-right: calc(100vw * 10/1980);
+        width: 87.8%;
+    
+        font-size: calc(100vw * 15/1980);
+        padding: calc(100vw * 13/1980);
+        border: calc(100vw * 1/1980) solid rgb(133, 133, 133);
+        border-radius: calc(100vw * 5/1980);
+    
+  }
+  
+  textarea{
+	margin-top: calc(100vw *40/1980);
+  }
+
+
+
+
+#send_button{
+position: relative;
+  left: calc(100vw * 40/1990);
+  top: calc(100vw * 40/1980);
+  padding: calc(100vw * 15/1980) calc(100vw * 180/1980);
+  
+  font-size: calc(100vw * 20/1980);
+  font-family: var(--font1);
+  font-weight: bold;
+  color: white;
+  background-color: var(--orange);
+  border-radius: calc(100vw * 5/1980);
+  cursor: pointer;
+}
+
+
+#send_text{
+    position: relative;
+    color: rgb(209, 209, 209);
+    font-family: var(--font1);
+    font-size: calc(100vw *13/1980);
+        top: calc(100vw *60/1980);
+        left: calc(100vw * 90/1980);
+}
+
+#send_small{
+    color: var(--orange);
+}
+
+
+
+input[type="email"]:focus,
+textarea:focus
+{
+    outline: none;
+    border-color: var(--orange);
+  }
+
+
+  /*Input*/
+
+
+.footer{
+    position: relative;
+    height: calc(100vw * 200/1980);
+background-color: #0f0f0f;
+top: 0px;
+z-index: 1;
+}

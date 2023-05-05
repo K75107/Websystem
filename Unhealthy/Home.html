@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Unhealthy</title>
+        <link rel="stylesheet" media="(max-width: 720px)" href="css/smallscreen.css">
+        <link rel="stylesheet" media="(max-width: 720px)" href="css/home-small.css">
+
+        <link rel="stylesheet" media="(min-width: 721px)" href="css/widescreen.css">
+        <link rel="stylesheet" media="(min-width: 721px)" href="css/home-wide.css">
+        
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.css" integrity="sha512-Z0kTB03S7BU+JFU0nw9mjSBcRnZm2Bvm0tzOX9/OuOuz01XQfOpa0w/N9u6Jf2f1OAdegdIPWZ9nIZZ+keEvBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Inter&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        
+        
+        <img src = "images/logo.png" id="logo">
+
+        <!--Start-Navigation Bar -->
+            <div class = "menu">
+                <!--Start-smallscreen-->
+                    <input type="checkbox" id="check">
+                    
+                        <label class="check1" for="check">
+                            <i class="fa-solid fa-bars"></i>
+                        </label>
+                        
+                        <search class="small-nav">
+                            <button id="search" type="submit"><i class="fa fa-search"></i></button>
+                            <button id ="user" type="submit"><i class="fa fa-user"></i></button>
+                        </search>
+
+                <!--End-smallscreen-->
+                <div class="sidebar">
+                    <ul>	
+                        <li><a href = "Home.html" target ="_self"  class="active"><i class="fa-solid fa-house"></i>Home</a></li>
+                        <li><a href = "#" target ="_self"><label for="toggle-submenu"><i class="fa-solid fa-file"></i> Recipes</label> </a>
+                            <input type="checkbox" id="toggle-submenu" />
+                            <div class="submenu">
+                                <ul>
+                                    <li><a href = "Recipe.html" target ="_self"><i class="fa-solid fa-utensils"></i>Popular</a></li>
+                                    <li><a href = "Recipe.html" target ="_self"><i class="fa-solid fa-ice-cream"></i>Trending</a></li>
+                                    <li><a href = "Recipe.html" target ="_self"><i class="fa-solid fa-martini-glass-citrus"></i>New release</a></li>
+                                </ul>
+                            </div>   
+                        </li>
+                        <li><a href = "About.html" target ="_self"><i class="fa-solid fa-folder-open"></i>About</a></li>
+                        <li><a href = "Contact.html" target ="_self"><i class="fa-solid fa-cart-plus"></i>Contact Us</a></li>
+                        
+                        <li>
+                                <button id="search2"><i class="fa fa-search" id="search1"></i></button>
+                        </li>
+                        
+                        <div class="joinus">
+                            <li id = "join"><button id="join_us"><i class="fa-solid fa-user"></i>Login</button></li>
+                        
+                        </div>
+                    </ul>
+                </div>  			
+            </div>
+        <!--End-Navigation Bar -->
+        
+        <div id="first-display">
+      
+            <img src="images/orange.png" id="orange">
+            <div class="slider-frame">
+                <div class="slide-images">
+                    <div class="slide-container">
+                        <img src = "images/Pizza.png">
+                    </div>
+                    <div class="slide-container">
+                        <img src = "images/burger.png">
+                    </div>
+                    <div class="slide-container">
+                        <img src = "images/Pizza.png">
+                    </div>
+                    <div class="slide-container">
+                        <img src = "images/burger.png">
+                    </div>
+                    <div class="slide-container">
+                        <img src = "images/Pizza.png">
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="box1">
+              
+                <div class="padding1">
+                    <saying>YOUR WAY TO<br><span class="unhealthy">UNHEALTY<br></span>LIFESTYLE<hr class="line1"></saying>
+                        <div class="learn"> 
+                            <learn>Learn Now</learn>
+                        </div>
+                </div>
+            </div>
+        </div>
+        
+        <div id="second-display">
+            <div class="box2">
+                
+                <welcome> Welcome to <span class="unhealthy">UNHEALTY</span></welcome>
+                    <hr class="line2">
+                        <intro1>"Unhealthy is designed to provide you with recipes of popular foods that will satisfy your cravings.  "</intro1>
+                            <div class="joinnow"> 
+                                <joinnow>Join Now</joinnow>
+                            </div>
+                        <img src="images/fries.png" id="fries">
+            </div>
+            <img src="images/plate.png" id="plate"> 
+        </div>
+        <div class="third-display">
+            <p class="new">What's New?</p>
+                <choose>CHOOSE YOUR FAVORITE</choose>
+
+            <div class="container-items ">
+                <div class="item_holder"  id="item1">
+                    
+                    <div class="items" >
+                        <!--<div class="price">₱150</div>-->
+                        <img src="images/Burgers/bacon_ham .png" class="photo">
+                        <div class="names_item">Bacon & Hamburger </div>
+                        <i class="fa-solid fa-star" id="item1_star1"></i>
+                        <i class="fa-solid fa-star" id="item1_star2"></i>
+                        <i class="fa-solid fa-star" id="item1_star3"></i>
+                        <i class="fa-solid fa-star" id="item1_star4"></i>
+                        <i class="fa-solid fa-star" id="item1_star5"></i>
+                        <div class="reactions">
+                            <button><i class="fa-solid fa-circle-plus"></i></button>
+                            <div class="item_description">Savor our irresistible bacon hamburger with crispy bacon and juicy beef patty.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item_holder" id="item2">
+                    <div class="items" >
+                        <!--<div class="price">₱125</div>-->
+                        <img src="images/Dessert/sundae.png" class="photo"> 
+                        <div class="names_item">Sundae </div>
+                        <i class="fa-solid fa-star" id="item2_star1"></i>
+                        <i class="fa-solid fa-star" id="item2_star2"></i>
+                        <i class="fa-solid fa-star" id="item2_star3"></i>
+                        <i class="fa-solid fa-star" id="item2_star4"></i>
+                        <i class="fa-solid fa-star" id="item2_star5"></i>  
+                        <div class="reactions">
+                            <button><i class="fa-solid fa-circle-plus"></i></button>
+                            <div class="item_description">A sundae bursting with flavor from a variety of ice cream flavors, syrups, and toppings.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item_holder"  id="item3">
+                    
+                    <div class="items"> 
+                        <!--<div class="price">₱100</div>-->
+                        <img src="images/Burgers/hotdog.png" class="photo">  
+                        <div class="names_item">Bacon & Hamburger </div>
+                        <i class="fa-solid fa-star" id="item3_star1"></i>
+                        <i class="fa-solid fa-star" id="item3_star2"></i>
+                        <i class="fa-solid fa-star" id="item3_star3"></i>
+                        <i class="fa-solid fa-star" id="item3_star4"></i>
+                        <i class="fa-solid fa-star" id="item3_star5"></i> 
+                        <div class="reactions">
+                            <button><i class="fa-solid fa-circle-plus"></i></button>
+                            <div class="item_description">A timeless snack, the hotdog in a bun features a sausage with condiments in a sliced bun.</div>
+                        </div>
+                        
+                    </div>
+                </div>
+
+
+
+
+            </div>
+        </div>
+        <div class="fourth-display">
+            <img src="images/tomato.png" alt="" id="tom">
+            <img src="images/leaf1.png" id="leaf2">
+            <div id="box4">
+                <div id="sign_up">Sign Up</div>
+                <div id="sign_up_saying">It's quick and easy.</div>
+                <hr id="line3">
+                <form>
+                   
+                    <input type="text" id="email" name="first_name" placeholder="First name">
+                    <input type="text" id="last_name" name="last_name" placeholder="Last name">
+                    <input type="email" id="email_signup" name="email_signup" placeholder="Mobile number or email">
+                    <input type="password" id="pass_signup" name="pass_signup" placeholder="New password">
+                    <div id="b_day_label">Birthday</div>
+                    <input type="date" id="b_day_signup" name="b_day_signup" placeholder="Birthday">
+                    <select id="gender" name="gender">
+                        <option value="">Select your gender</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                      </select>
+                    <div id="gender_label">Gender</div>
+                    <button id="sign_up_button">Sign Up</button>
+                    <div id="sign_in_text">Already have an account? <button id="sign_in_small">Sign in</button></div>
+                </form>
+            </div>
+            <div id="box5">
+                <img src = "images/logo.png" id="logo2">
+                <p id="saying_sign_up">Join our community and unlock a world of deliciously indulgent recipes.</p>
+            </div>
+        </div>
+        <div class="footer">
+
+        </div>
+
+    </body>
+
+
+
+
+
+
+
+</html>
