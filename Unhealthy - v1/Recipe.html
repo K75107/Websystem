@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Unhealthy</title>
+        
+        <link rel="stylesheet" media="(max-width: 720px)" href="css/smallscreen.css">
+        <link rel="stylesheet" media="(max-width: 720px)" href="css/recipe-small.css">
+        
+        <link rel="stylesheet" media="(min-width: 721px)" href="css/widescreen.css">
+        <link rel="stylesheet" media="(min-width: 721px)" href="css/recipe-wide.css">
+        
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.css" integrity="sha512-Z0kTB03S7BU+JFU0nw9mjSBcRnZm2Bvm0tzOX9/OuOuz01XQfOpa0w/N9u6Jf2f1OAdegdIPWZ9nIZZ+keEvBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Inter&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        
+        <img src = "images/logo.png" id="logo">
+
+        <!--Start-Navigation Bar -->
+            <div class = "menu">
+                <!--Start-smallscreen-->
+                    <input type="checkbox" id="check">
+                        <label class="check1" for="check">
+                            <i class="fa-solid fa-bars"></i>
+                        </label>
+                        
+                        <search class="small-nav">
+                            <button id="search" type="submit"><i class="fa fa-search"></i></button>
+                            <button id ="user" type="submit"><i class="fa fa-user"></i></button>
+                        </search>
+
+                <!--End-smallscreen-->
+                <div class="sidebar">
+                    <ul>	
+                        <li><a href = "Home.html" target ="_self" ><i class="fa-solid fa-house"></i>Home</a></li>
+                        <li><a href = "#" target ="_self" class="active"><label for="toggle-submenu"><i class="fa-solid fa-file"></i> Recipes</label> </a>
+                            <input type="checkbox" id="toggle-submenu" />
+                            <div class="submenu">
+                                <ul>
+                                    <li><a href = "Recipe.html" target ="_self"><i class="fa-solid fa-utensils"></i>Popular</a></li>
+                                    <li><a href = "Recipe.html" target ="_self"><i class="fa-solid fa-ice-cream"></i>Trending</a></li>
+                                    <li><a href = "Recipe.html" target ="_self"><i class="fa-solid fa-martini-glass-citrus"></i>New release</a></li>
+                                </ul>
+                            </div>   
+                        </li>
+                        <li><a href = "About.html" target ="_self"><i class="fa-solid fa-folder-open"></i>About</a></li>
+                        <li><a href = "Contact.html" target ="_self"><i class="fa-solid fa-cart-plus"></i>Contact Us</a></li>
+                        
+                        <li>
+                                <button id="search2"><i class="fa fa-search" id="search1"></i></button>
+                        </li>
+                        
+                        <div class="joinus">
+                            <li id = "join"><button id="join_us"><i class="fa-solid fa-user"></i>Login</button></li>
+                        
+                        </div>
+                    </ul>
+                </div>  			
+            </div>
+        <!--End-Navigation Bar -->
+        
+        
+
+        <div class="first-display">
+            <label for="popular">Most popular</label>
+                <div id="popular">
+                   
+                        <div class="item_holder"  id="item1">
+                            
+                            <div class="items" >
+                                <!--<div class="price">₱150</div>-->
+                                <img src="images/popular/dalgona.png" class="photo">
+                                <div class="names_item">Dalgona Coffee </div>
+                                <i class="fa-solid fa-star" id="item1_star1"></i>
+                                <i class="fa-solid fa-star" id="item1_star2"></i>
+                                <i class="fa-solid fa-star" id="item1_star3"></i>
+                                <i class="fa-solid fa-star" id="item1_star4"></i>
+                                <i class="fa-solid fa-star" id="item1_star5"></i>
+                                <div class="reactions">
+                                    <button><i class="fa-solid fa-circle-plus"></i></button>
+                                    <div class="item_description">Savor our irresistible bacon hamburger with crispy bacon and juicy beef patty.</div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                            <div class="recipe-holder">
+                                
+                            </div>
+
+
+                        <div class="item_holder" id="item2">
+                            <div class="items" >
+                                <!--<div class="price">₱125</div>-->
+                                <img src="images/popular/ube_cheesedesal.png" class="photo"> 
+                                <div class="names_item">Ube-Cheesedesal</div>
+                                <i class="fa-solid fa-star" id="item2_star1"></i>
+                                <i class="fa-solid fa-star" id="item2_star2"></i>
+                                <i class="fa-solid fa-star" id="item2_star3"></i>
+                                <i class="fa-solid fa-star" id="item2_star4"></i>
+                                <i class="fa-solid fa-star" id="item2_star5"></i>  
+                                <div class="reactions">
+                                    <button><i class="fa-solid fa-circle-plus"></i></button>
+                                    <div class="item_description">A sundae bursting with flavor from a variety of ice cream flavors, syrups, and toppings.</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item_holder"  id="item3">
+                            <div class="items"> 
+                                 <!--<div class="price">₱100</div>-->
+                                <img src="images/popular/sushi_bake.png" class="photo">  
+                                <div class="names_item">Sushi Bake </div>
+                                <i class="fa-solid fa-star" id="item3_star1"></i>
+                                <i class="fa-solid fa-star" id="item3_star2"></i>
+                                <i class="fa-solid fa-star" id="item3_star3"></i>
+                                <i class="fa-solid fa-star" id="item3_star4"></i>
+                                <i class="fa-solid fa-star" id="item3_star5"></i> 
+                                <div class="reactions">
+                                    <button><i class="fa-solid fa-circle-plus"></i></button>
+                                    <div class="item_description">A timeless snack, the hotdog in a bun features a sausage with condiments in a sliced bun.</div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="item_holder"  id="item4">
+                            <div class="items"> 
+                                <!--<div class="price">₱100</div>-->
+                                <img src="images/popular/banana_cake.png" class="photo">  
+                                <div class="names_item">Banana Cake </div>
+                                <i class="fa-solid fa-star" id="item4_star1"></i>
+                                <i class="fa-solid fa-star" id="item4_star2"></i>
+                                <i class="fa-solid fa-star" id="item4_star3"></i>
+                                <i class="fa-solid fa-star" id="item4_star4"></i>
+                                <i class="fa-solid fa-star" id="item4_star5"></i> 
+                                <div class="reactions">
+                                    <button><i class="fa-solid fa-circle-plus"></i></button>
+                                    <div class="item_description">A timeless snack, the hotdog in a bun features a sausage with condiments in a sliced bun.</div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="item_holder"  id="item5">
+                            <div class="items"> 
+                                <!--<div class="price">₱100</div>-->
+                                <img src="images/popular/Kori_kohi.png" class="photo">  
+                                <div class="names_item">Kori Kohi</div>
+                                <i class="fa-solid fa-star" id="item5_star1"></i>
+                                <i class="fa-solid fa-star" id="item5_star2"></i>
+                                <i class="fa-solid fa-star" id="item5_star3"></i>
+                                <i class="fa-solid fa-star" id="item5_star4"></i>
+                                <i class="fa-solid fa-star" id="item5_star5"></i> 
+                                <div class="reactions">
+                                    <button><i class="fa-solid fa-circle-plus"></i></button>
+                                    <div class="item_description">A timeless snack, the hotdog in a bun features a sausage with condiments in a sliced bun.</div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="item_holder"  id="item5">
+                            <div class="items"> 
+                                <!--<div class="price">₱100</div>-->
+                                <img src="images/Burgers/hotdog.png" class="photo">  
+                                <div class="names_item">Hotdog in Bun </div>
+                                <i class="fa-solid fa-star" id="item5_star1"></i>
+                                <i class="fa-solid fa-star" id="item5_star2"></i>
+                                <i class="fa-solid fa-star" id="item5_star3"></i>
+                                <i class="fa-solid fa-star" id="item5_star4"></i>
+                                <i class="fa-solid fa-star" id="item5_star5"></i> 
+                                <div class="reactions">
+                                    <button><i class="fa-solid fa-circle-plus"></i></button>
+                                    <div class="item_description">A timeless snack, the hotdog in a bun features a sausage with condiments in a sliced bun.</div>
+                                </div>
+                                
+                            </div>
+                        </div>
+
+                </div>
+                
+                <label for="trending">Trending</label>
+                <div id="trending">
+                   
+                        <div class="item_holder"  id="item1">
+                            
+                            <div class="items" >
+                                <!--<div class="price">₱150</div>-->
+                                <img src="images/Burgers/bacon_ham .png" class="photo">
+                                <div class="names_item">Bacon & Hamburger </div>
+                                <i class="fa-solid fa-star" id="item1_star1"></i>
+                                <i class="fa-solid fa-star" id="item1_star2"></i>
+                                <i class="fa-solid fa-star" id="item1_star3"></i>
+                                <i class="fa-solid fa-star" id="item1_star4"></i>
+                                <i class="fa-solid fa-star" id="item1_star5"></i>
+                                <div class="reactions">
+                                    <button><i class="fa-solid fa-circle-plus"></i></button>
+                                    <div class="item_description">Savor our irresistible bacon hamburger with crispy bacon and juicy beef patty.</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item_holder" id="item2">
+                            <div class="items" >
+                                 <!--<div class="price">₱125</div>-->
+                                <img src="images/Dessert/sundae.png" class="photo"> 
+                                <div class="names_item">Sundae </div>
+                                <i class="fa-solid fa-star" id="item2_star1"></i>
+                                <i class="fa-solid fa-star" id="item2_star2"></i>
+                                <i class="fa-solid fa-star" id="item2_star3"></i>
+                                <i class="fa-solid fa-star" id="item2_star4"></i>
+                                <i class="fa-solid fa-star" id="item2_star5"></i>  
+                                <div class="reactions">
+                                    <button><i class="fa-solid fa-circle-plus"></i></button>
+                                    <div class="item_description">A sundae bursting with flavor from a variety of ice cream flavors, syrups, and toppings.</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item_holder"  id="item3">
+                            <div class="items"> 
+                                <!--<div class="price">₱100</div>-->
+                                <img src="images/Burgers/hotdog.png" class="photo">  
+                                <div class="names_item">Bacon & Hamburger </div>
+                                <i class="fa-solid fa-star" id="item3_star1"></i>
+                                <i class="fa-solid fa-star" id="item3_star2"></i>
+                                <i class="fa-solid fa-star" id="item3_star3"></i>
+                                <i class="fa-solid fa-star" id="item3_star4"></i>
+                                <i class="fa-solid fa-star" id="item3_star5"></i> 
+                                <div class="reactions">
+                                    <button><i class="fa-solid fa-circle-plus"></i></button>
+                                    <div class="item_description">A timeless snack, the hotdog in a bun features a sausage with condiments in a sliced bun.</div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="item_holder"  id="item4">
+                            <div class="items"> 
+                                <!--<div class="price">₱100</div>-->
+                                <img src="images/trend/mango_graham.png" class="photo">  
+                                <div class="names_item">Mango Graham Cake</div>
+                                <i class="fa-solid fa-star" id="item4_star1"></i>
+                                <i class="fa-solid fa-star" id="item4_star2"></i>
+                                <i class="fa-solid fa-star" id="item4_star3"></i>
+                                <i class="fa-solid fa-star" id="item4_star4"></i>
+                                <i class="fa-solid fa-star" id="item4_star5"></i> 
+                                <div class="reactions">
+                                    <button><i class="fa-solid fa-circle-plus"></i></button>
+                                    <div class="item_description">A timeless snack, the hotdog in a bun features a sausage with condiments in a sliced bun.</div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="item_holder"  id="item5">
+                            <div class="items"> 
+                                <!--<div class="price">₱100</div>-->
+                                <img src="images/trend/carbonara.png" class="photo">  
+                                <div class="names_item">Tuna carbonara</div>
+                                <i class="fa-solid fa-star" id="item5_star1"></i>
+                                <i class="fa-solid fa-star" id="item5_star2"></i>
+                                <i class="fa-solid fa-star" id="item5_star3"></i>
+                                <i class="fa-solid fa-star" id="item5_star4"></i>
+                                <i class="fa-solid fa-star" id="item5_star5"></i> 
+                                <div class="reactions">
+                                    <button><i class="fa-solid fa-circle-plus"></i></button>
+                                    <div class="item_description">A timeless snack, the hotdog in a bun features a sausage with condiments in a sliced bun.</div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="item_holder"  id="item5">
+                            <div class="items"> 
+                                <!--<div class="price">₱100</div>-->
+                                <img src="images/trend/corndog .png" class="photo">  
+                                <div class="names_item">Cheesy Corndog</div>
+                                <i class="fa-solid fa-star" id="item5_star1"></i>
+                                <i class="fa-solid fa-star" id="item5_star2"></i>
+                                <i class="fa-solid fa-star" id="item5_star3"></i>
+                                <i class="fa-solid fa-star" id="item5_star4"></i>
+                                <i class="fa-solid fa-star" id="item5_star5"></i> 
+                                <div class="reactions">
+                                    <button><i class="fa-solid fa-circle-plus"></i></button>
+                                    <div class="item_description">A timeless snack, the hotdog in a bun features a sausage with condiments in a sliced bun.</div>
+                                </div>
+                                
+                            </div>
+                        </div>
+
+                </div>
+        </div>
+        
+            <div id="recipe1">
+            </div>
+    </body>
+
+
+
+
+
+
+
+</html>

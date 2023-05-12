@@ -1,0 +1,195 @@
+/*Start-Navigation Bar*/
+    :root {
+    --green:rgb(18, 51, 28);
+    --orange:#ff9100;
+    --font1: 'Inter', sans-serif;
+    --dark_gray:#0d0e0d;
+    --dark_gray1:#1a1a1a ;
+    --font2:'Delicious Handrawn', cursive;
+    }
+    
+
+   .check1,.small-nav,#check,#toggle-submenu{
+        display: none;
+    }
+    button {
+        /* Reset all default styles */
+        background-color: transparent;
+        border: none;
+        color: inherit;
+        font: inherit;
+        line-height: normal;
+        text-align: center;
+        text-decoration: none;
+        padding: 0;
+        margin: 0;
+        cursor: pointer;
+        overflow: visible;
+        outline: none;
+      }
+    .menu{
+        background-color: #131212;
+        width:calc(100vw * 1920/1920);
+        height: 55px;
+        position: fixed;
+        box-shadow: 5px 5px 20px black;
+        display: flex;
+        justify-content: right;
+        z-index: 2;
+    }
+    #logo{
+        z-index: 3;
+        position: fixed;
+        height: 22px;
+        z-index: 3;
+        top: 17px;
+        left: 20px;
+    }
+    .sidebar{
+        align-items: center;
+        display: flex;
+        
+    }
+    .menu ul{
+        align-items: center;
+        display: flex;
+        list-style: none;
+        
+    }   
+    .menu ul li{
+        margin-right: calc(100vw * 50/1920);
+        font-size: 14px;
+        font-family: 'Inter', sans-serif;
+    }
+
+    .menu ul li a{
+        text-decoration: none;
+        color: rgb(204, 204, 204);
+
+    }
+    
+    .menu ul li i:not(#search1){
+        display: none;
+
+    }
+  
+    #search1{
+        margin-right: calc(100vw * -60/1920);
+        color: rgb(204, 204, 204);
+    }
+
+    #search1:hover{
+        color:white;
+    }
+
+    
+
+    #join{
+        background-color: var(--orange);
+        border: 1px solid #ff9100;
+        margin-right: calc(100vw * 40/1920);
+        border-style: solid ;
+        border-width: 1px;
+        border-radius: 5px;
+        padding: 5px calc(100vw * 25/1920);
+   
+       
+    }
+
+
+    #join_us{
+        
+        background-color: transparent;
+        color: white;
+        border: none;
+        padding: 0;
+        font: inherit;
+        cursor: pointer;
+        outline: inherit;
+        overflow: hidden;
+    }
+ 
+    i{
+        color: white;
+        padding-right: 5px;
+    }
+
+    .active{
+        color: white !important;
+    }
+    /* Search Bar*/ 
+        .search input[type=text]{
+            background-color: #131212;
+            border-width: 1px;
+            width: calc(100vw * 250/1920);
+            height: 25px;
+            border-radius: 10px;
+            color: white;
+            padding: calc(100vw * 5/1080) ;
+            font-size: 14px;
+        }
+        .search :focus{
+            outline:none;
+        }
+        .search button{
+            font-size: 14px;
+            color: white;
+            background-color: transparent;
+            border: 0;
+            margin-left: calc(100vw * 2/1920);
+            cursor: pointer;
+        }
+        form.example::after {
+            content: "";
+            clear: both;
+        }
+    /* Sub Menu*/ 
+        .submenu{
+            display: none;
+        }
+        .menu ul li:hover .submenu{
+            display: block;
+            background-color: #131212;
+            position: fixed;
+            height: 130px;
+            padding: 10px calc(100vw * 15/1920);
+            z-index: 2;
+        }
+        .menu ul li:hover .submenu ul{
+            display:block;
+            }
+        .submenu ul li {
+            padding: 10px 0;
+            margin:  0 calc(100vw * 10/1920);
+        }
+
+    /*Lines in Navigation*/
+        .h{
+            width: 100%;
+            margin-top: 1px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+
+
+        /* Start- Hover*/
+        ul li a:hover i{
+            color: #ffffff;
+            margin-bottom: 5px;
+           
+        }
+        ul li a:hover{
+            color: #ffffff;
+        }
+        
+        #join:hover{
+            background-color: #ff8800;
+            border: 1px solid #ff8800;
+        }
+
+
+
+
+        /* End- Hover*/       
+/*End-Navigation Bar*/ 

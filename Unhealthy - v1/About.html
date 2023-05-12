@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Unhealthy</title>
+        
+        <link rel="stylesheet" media="(max-width: 720px)" href="css/smallscreen.css">
+        <link rel="stylesheet" media="(max-width: 720px)" href="css/about-small.css">
+        
+        <link rel="stylesheet" media="(min-width: 721px)" href="css/widescreen.css">
+        <link rel="stylesheet" media="(min-width: 721px)" href="css/about-wide.css">
+        
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.css" integrity="sha512-Z0kTB03S7BU+JFU0nw9mjSBcRnZm2Bvm0tzOX9/OuOuz01XQfOpa0w/N9u6Jf2f1OAdegdIPWZ9nIZZ+keEvBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@800;900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Inter&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+
+
+    
+    </head>
+
+    <body>
+        <img src = "images/logo.png" id="logo">
+
+        <!--Start-Navigation Bar -->
+            <div class = "menu">
+                <!--Start-smallscreen-->
+                    <input type="checkbox" id="check">
+                        <label class="check1" for="check">
+                            <i class="fa-solid fa-bars"></i>
+                        </label>
+                        
+                        <search class="small-nav">
+                            <button id="search" type="submit"><i class="fa fa-search"></i></button>
+                            <button id ="user" type="submit"><i class="fa fa-user"></i></button>
+                        </search>
+
+                <!--End-smallscreen-->
+                <div class="sidebar">
+                    <ul>	
+                        <li><a href = "Home.html" target ="_self" ><i class="fa-solid fa-house"></i>Home</a></li>
+                        <li><a href = "#" target ="_self" ><label for="toggle-submenu"><i class="fa-solid fa-file"></i> Recipes</label> </a>
+                            <input type="checkbox" id="toggle-submenu" />
+                            <div class="submenu">
+                                <ul>
+                                    <li><a href = "Recipe.html" target ="_self"><i class="fa-solid fa-utensils"></i>Popular</a></li>
+                                    <li><a href = "Recipe.html" target ="_self"><i class="fa-solid fa-ice-cream"></i>Trending</a></li>
+                                    <li><a href = "Recipe.html" target ="_self"><i class="fa-solid fa-martini-glass-citrus"></i>New release</a></li>
+                                </ul>
+                            </div>   
+                        </li>
+                        <li><a href = "About.html" target ="_self" class="active"><i class="fa-solid fa-folder-open"></i>About</a></li>
+                        <li><a href = "Contact.html" target ="_self"><i class="fa-solid fa-cart-plus"></i>Contact Us</a></li>
+                        
+                        <li>
+                                <button id="search2"><i class="fa fa-search" id="search1"></i></button>
+                        </li>
+                        
+                        <div class="joinus">
+                            <li id = "join"><button id="join_us"><i class="fa-solid fa-user"></i>Login</button></li>
+                        
+                        </div>
+                    </ul>
+                </div>  			
+            </div>
+        <!--End-Navigation Bar -->
+        
+        <div id="first_display">
+            <img src="images/leaf4.png" id="leaf4" alt="">
+            <img src="images/leaf5.png" id="leaf5" alt="">
+            <div id="box1">
+                <div id="box2">
+                    <p id="title">About <span id="us">Us</span></p>
+                    <p id="saying1">To understand the book, you must first understand the author.</p>
+                </div>
+                <div id="box3">
+                    <div id="about_nav">
+                        <ul>
+                            <li id="author"><button id="author">Author</button>
+                                <div id="box4">
+                                    <div id="box4_1">
+                                        <img src="images/about/dp.jpg" id="dp1">
+                                        <p id="dp1_saying">"Through this website, I hope to inspire you to explore new flavors, try out different cooking techniques, and most importantly, have fun in the kitchen. Whether you are a beginner cook or a seasoned pro, I invite you to join me on this culinary journey and discover the joy of cooking!"<br><br>-Kent Divinagracia</p>
+                                    </div>
+                                    <div id="box4_2">
+                                        <img src="images/about/dp2.jpg" id="dp1">
+                                        <p id="dp2_saying">"For me, cooking is not just about feeding myself and my family, it's about creating memories and bringing people together. I started this blog to share my passion for food with you and to provide you with easy-to-follow recipes that are not only delicious but also nourishing."<br><br>- Shaan Uddin</p>
+                                    </div>
+
+                                </div>
+                            </li>
+
+                            <li id="hobbies"><button id="hobbies">Our Hobbies</button>
+                                <div id="box5">
+                                    <div id="hob_holder">
+                                        <div class="holder">
+                                            <img src="images/about/cat.jpg" id="hob1" class="hob">
+                                            <p class="hob_tit" id="hob_tit1">Sleeping</p>
+                                            <p class="hob_def"> Those who enjoy sleeping may appreciate the feeling of relaxation and rejuvenation it provides, as well as the opportunity to escape the stresses of daily life. Whether it's taking a quick nap during the day or indulging in a long and restful slumber at night, sleeping as a hobby can help improve overall health and well-being.</p>
+                                        </div>
+                                        <div class="holder">
+                                            <img src="images/about/cat2.jpg" id="hob2" class="hob">
+                                            <p class="hob_tit" id="hob_tit1">Eating</p>
+                                            <p class="hob_def">Exploring different restaurants, experimenting with recipes, and sharing meals with friends and family can all be aspects of the eating hobby. While it's important to maintain a balanced and healthy diet, indulging in delicious and satisfying meals can be a source of pleasure and relaxation for food enthusiasts.</p>
+                                        </div>
+                                        <div class="holder">
+                                            <img src="images/about/cat3.jpg" id="hob3" class="hob">
+                                            <p class="hob_tit" id="hob_tit1">Singing</p>
+                                            <p class="hob_def">Singing can also be a form of self-expression, allowing individuals to convey their emotions and connect with others through music. Whether it's singing in a choir, performing solo, or just singing along to the radio in the car, this hobby can be a great way to enhance one's creativity and joy.</p>
+                                        </div>
+                                        <div class="holder">
+                                            <img src="images/about/cat4.jpg" id="hob3" class="hob">
+                                            <p class="hob_tit" id="hob_tit1">Cooking</p>
+                                            <p class="hob_def">Those who love cooking may find joy in trying out new recipes, learning new techniques, and sharing their culinary creations with others. Cooking can be a creative outlet that allows individuals to express themselves and connect with others through food. Whether it's preparing a simple weeknight meal or hosting an elaborate dinner party, cooking as a hobby can provide a sense of fulfillment and satisfaction.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li id="our_background"><button id="our_background">Our background</button>
+                                <div id="box6">
+                                    <div id="box4_1">
+                                        <img src="images/about/dp.jpg" id="dp1">
+                                        <div class="information_holder">
+                                            <p class="info">Name: Kent Divinagracia</p>
+                                            <p class="info">Age: 20</p>
+                                            <p class="info">Gender: Male</p>
+                                            <p class="info">School Attended: University of Science and Technology of Southern Philippines</p>
+                                            <p class="info">Course: Bachelor Science in Information Technology</p>
+                                            <p class="info">Year Level: 2nd Year</p>
+                                        </div>
+                                    </div>
+                                    <div id="box4_2">
+                                        <img src="images/about/dp2.jpg" id="dp1">
+                                        <div class="information_holder">
+                                            <p class="info">Name: Shaan Uddin</p>
+                                            <p class="info">Age: 20</p>
+                                            <p class="info">Gender: Female</p>
+                                            <p class="info">School Attended: University of Science and Technology of Southern Philippines</p>
+                                            <p class="info">Course: Bachelor Science in Information Technology</p>
+                                            <p class="info">Year Level: 2nd Year</p>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    <div class="footer">
+    </div>
+    <script src="js/script.js"></script>
+    </body>
+  
+   
+
+    
+
+
+
+
+
+
+
+</html>

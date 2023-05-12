@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Unhealthy</title>
+        
+        <link rel="stylesheet" media="(max-width: 720px)" href="css/smallscreen.css">
+        <link rel="stylesheet" media="(max-width: 720px)" href="css/contact-small.css">
+        
+        <link rel="stylesheet" media="(min-width: 721px)" href="css/widescreen.css">
+        <link rel="stylesheet" media="(min-width: 721px)" href="css/contact-wide.css">
+        
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.css" integrity="sha512-Z0kTB03S7BU+JFU0nw9mjSBcRnZm2Bvm0tzOX9/OuOuz01XQfOpa0w/N9u6Jf2f1OAdegdIPWZ9nIZZ+keEvBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@800;900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Inter&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+
+
+    
+    </head>
+
+    <body>
+        <img src = "images/logo.png" id="logo">
+
+        <!--Start-Navigation Bar -->
+            <div class = "menu">
+                <!--Start-smallscreen-->
+                    <input type="checkbox" id="check">
+                        <label class="check1" for="check">
+                            <i class="fa-solid fa-bars"></i>
+                        </label>
+                        
+                        <search class="small-nav">
+                            <button id="search" type="submit"><i class="fa fa-search"></i></button>
+                            <button id ="user" type="submit"><i class="fa fa-user"></i></button>
+                        </search>
+
+                <!--End-smallscreen-->
+                <div class="sidebar">
+                    <ul>	
+                        <li><a href = "Home.html" target ="_self" ><i class="fa-solid fa-house"></i>Home</a></li>
+                        <li><a href = "#" target ="_self" ><label for="toggle-submenu"><i class="fa-solid fa-file"></i> Recipes</label> </a>
+                            <input type="checkbox" id="toggle-submenu" />
+                            <div class="submenu">
+                                <ul>
+                                    <li><a href = "Recipe.html" target ="_self"><i class="fa-solid fa-utensils"></i>Popular</a></li>
+                                    <li><a href = "Recipe.html" target ="_self"><i class="fa-solid fa-ice-cream"></i>Trending</a></li>
+                                    <li><a href = "Recipe.html" target ="_self"><i class="fa-solid fa-martini-glass-citrus"></i>New release</a></li>
+                                </ul>
+                            </div>   
+                        </li>
+                        <li><a href = "About.html" target ="_self" ><i class="fa-solid fa-folder-open"></i>About</a></li>
+                        <li><a href = "Contact.html" target ="_self" class="active"><i class="fa-solid fa-cart-plus"></i>Contact Us</a></li>
+                        
+                        <li>
+                                <button id="search2"><i class="fa fa-search" id="search1"></i></button>
+                        </li>
+                        
+                        <div class="joinus">
+                            <li id = "join"><button id="join_us"><i class="fa-solid fa-user"></i>Login</button></li>
+                        
+                        </div>
+                    </ul>
+                </div>  			
+            </div>
+        <!--End-Navigation Bar -->
+        
+        <div id="first_display">
+            <img src="images/leaf4.png" id="leaf4" alt="">
+            
+            <div id="box1">
+                <div id="box2">
+                    <p id="title">Contact <span id="us">Us</span></p>
+                    <p id="saying1">We'd love to hear from you!</p>
+                </div>
+            </div>
+            <div id="box3">
+                <div id="sign_up">Get in touch</div>
+                <div id="sign_up_saying">It's quick and easy.</div>
+                <hr id="line3">
+
+                <form>
+                    <input type="email" id="email" name="email" placeholder="Email">
+                    
+                    
+                    <textarea id="message" name="message" rows="5" cols="40" placeholder="Message"></textarea>
+                    
+                    <button id="send_button">Send</button>
+                    <div id="send_text">By clicking send, you agree to our <button id="send_small">privacy policy</button>.</div>
+                </form>
+            </div>
+        </div>
+    </body>
+    <div class="footer">
+
+    </div>
+
+
+
+
+
+
+
+</html>

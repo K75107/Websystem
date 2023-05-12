@@ -1,0 +1,160 @@
+/*Start-Navigation Bar*/ 
+:root {
+    --green:rgb(18, 51, 28);
+    --orange:#ff9100;
+    --font1: 'Inter', sans-serif;
+    --dark_gray:#0d0e0d;
+    --dark_gray1:#1a1a1a ;
+    --font2:'Delicious Handrawn', cursive;
+    }
+
+
+button {
+    /* Reset all default styles */
+    background-color: transparent;
+    border: none;
+    color: inherit;
+    font: inherit;
+    line-height: normal;
+    text-align: center;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    overflow: visible;
+    outline: none;
+  }
+    .menu{
+        background-color: #131212;
+        width:calc(100vw * 1920/1920);
+        height: 55px;
+        position: fixed;
+        box-shadow: 10px 20px 50px black;
+        display: flex;
+        justify-content:flex-start;
+        z-index: 2;
+    }
+    .check1{
+        position: fixed;
+        top: 13px;
+        background-color: transparent;
+        border:none;   
+        color:white;
+        margin-left: 15px;
+        font-size: 25px;
+        cursor: pointer;
+        z-index: 2;
+    }
+
+    #logo{
+        position: fixed;
+        height: 22px;
+        z-index: 3;
+        top: 17px;
+        left: 50px;
+    }
+ 
+    #check{
+        display: none;
+        }
+   
+   #check :checked ~ .ul{
+    display: block;
+   }
+/*End- Navigation Bar*/
+
+/*Start-Sidebar*/
+   .sidebar{
+        position: fixed;
+        left: -250px;
+        top: 55px;
+        width: 250px;
+        height: 100%;
+        background-color: #131212;
+        display: flex;
+        justify-content: left;
+        display: block;
+        z-index: 1;
+   }
+   #check:checked ~ .sidebar{ /*Checkbox property to show sidebar*/
+    left: 0px;
+
+
+    }
+    #search-margin,#join,#search1{ /*Hide the search and Join Us*/
+        display: none;
+    }
+  
+    
+    .sidebar ul{
+
+        display: flex;
+        flex-direction:column;
+        width:inherit;
+        height: 100%;
+        font-size: 14px;
+        font-family: 'Inter', sans-serif;
+        
+    }
+    
+    .menu ul li a    {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        display: block;
+        line-height: 50px;
+        padding-left: 20px;
+        box-sizing: border-box;
+        border-top: solid 1px rgb(27, 27, 27);
+        transition: .4s;
+    }
+
+    .menu ul li i{
+        padding: 0 10px;
+    }
+    ul li a:hover{
+        color: #ff9100;
+        padding-left: 30px;
+    }
+    .small-nav button:hover{
+        color: #ff9100;
+    }
+    .submenu{
+        display: none;
+        margin-left: 60px;
+    }
+   
+/*Start-Search Bar*/ 
+.small-nav{
+    align-items: center;
+	display: flex;
+    margin-left: auto;
+    margin-right: 10px;
+}
+search button{
+    font-size: 20px;
+    color: white;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+}
+#user{
+    margin-left: 20px ;
+    margin-right: 10px;
+}
+/*End - Searh Bar*/
+
+/*Start- Sub Menu*/
+#toggle-submenu{
+    display: none;
+}
+label{
+    cursor: pointer;
+}
+#toggle-submenu:checked ~.submenu{
+    display: block;}
+
+
+
+/*End- Sub Menu*/
+
+
